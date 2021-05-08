@@ -53,6 +53,30 @@
   border: 0;
 }
 
+.download {
+  width: 21rem;
+  display: inline-block;
+  text-decoration: none;
+  background-color: #ee003c;
+  color: white;
+  border: 0.02rem solid #232c33;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  transition: all 0.2s;
+}
+.download:hover {
+  transform: translateY(-0.2rem);
+  box-shadow: 0 10px 20px #232c33;
+  transition: all 0.2s;
+}
+.download:active {
+  transform: translateY(-0.1rem);
+  box-shadow: 0 2px 5px #232c33;
+  transition: all 0.2s;
+}
+
 @media screen and (min-width: 600px) {
   .header {
     display: flex;

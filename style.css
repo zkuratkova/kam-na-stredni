@@ -1,6 +1,7 @@
-.class {
+.classroom {
   font-family: 'Montserrat', sans-serif;
   color: #232c33;
+  line-height: 1.6;
 }
 
 .container {
@@ -20,9 +21,39 @@
   color: #000000;
   display: inline-block;
   padding: 0.5rem;
+  margin: 0 0.3rem;
 }
 
-@media screen and (min-width: 520px) {
+.nav__link:hover,
+.nav__link:focus {
+  background-color: #d5dfe5;
+  color: #ee003c;
+}
+
+.lesson {
+  text-align: center;
+}
+
+.lesson__title--main {
+  color: #ee003c;
+}
+
+.video__container {
+  position: relative;
+  overflow: hidden;
+  padding-top: 56.25%;
+}
+
+.video__video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+@media screen and (min-width: 600px) {
   .header {
     display: flex;
     justify-content: space-between;
@@ -30,5 +61,20 @@
 
   .nav__list {
     display: flex;
+  }
+
+  .lesson {
+    padding: 0 2rem;
+  }
+
+  .lesson__text {
+    text-align: left;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .classroom {
+    width: 900px;
+    margin: 0 auto;
   }
 }

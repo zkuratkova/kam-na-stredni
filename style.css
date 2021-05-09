@@ -37,6 +37,25 @@
 .lesson__title--main {
   color: #ee003c;
 }
+.worksheet-download {
+  background-color: #d5dfe5;
+  margin: 2.5rem 0;
+  border-top: 1px solid #232c33;
+  border-bottom: 1px solid #232c33;
+  padding: 0.5rem;
+}
+
+.worksheet-download__text {
+  padding: 0 1rem;
+}
+
+.worksheet-download__btn {
+  padding: 0.3rem;
+  font-family: 'Montserrat', sans-serif;
+  border: 1px solid #232c33;
+  color: #ee003c;
+  margin-bottom: 1rem;
+}
 
 .video__container {
   position: relative;
@@ -95,6 +114,29 @@
   margin: 0.5rem 25%;
 }
 
+.quiz {
+  background-color: #d5dfe5;
+  padding: 0.5rem;
+  border-top: 1px solid #232c33;
+  border-bottom: 1px solid #232c33;
+  margin: 4rem 0;
+}
+
+.quiz__question {
+  font-weight: 800;
+}
+
+.quiz__answer,
+.quiz__btn {
+  text-align: left;
+  padding: 0.7rem 1rem;
+}
+
+.btn {
+  padding: 0.5rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
 @media screen and (min-width: 600px) {
   .header {
     display: flex;
@@ -110,6 +152,10 @@
   }
 
   .lesson__text {
+    text-align: left;
+  }
+
+  .worksheet-download__text {
     text-align: left;
   }
 }

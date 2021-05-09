@@ -44,9 +44,11 @@
       </header>
       <main class="lesson">
         <h1 class="lesson__title lesson__title--main">Lekce 1</h1>
+
         <h2 class="lesson__title lesson__title--underlined">
           Jaká nadání v práci uplatníš?
         </h2>
+
         <div class="video__container">
           <iframe
             class="video__video"
@@ -57,7 +59,13 @@
             allowfullscreen
           ></iframe>
         </div>
-
+        <div class="worksheet-download">
+          <p class="worksheet-download__text">
+            K lekci si můžeš stáhnout pracovní list v PDF, své postřehy a
+            poznámky si pak můžeš zapisovat přímo do něj. Odklaz je tady.
+          </p>
+          <button class="worksheet-download__btn">Pracovní list PDF</button>
+        </div>
         <h3 class="lesson__title">Co mi dodává energii?</h3>
         <p class="lesson__text">
           Jak zjistit na co mám talent? To poznáš tak, že odhalíš, co ti dodává
@@ -115,10 +123,30 @@
           lépe si všímáme ostatních, než sami sebe. S velkou pravděpodobností se
           dozvíš něco opravdu cenného.
         </p>
-        <h2>Kontrolní kvíz</h2>
-        <h4>
-          Na co se budeš ptát svého okolí v souvislosti s hledáním vhodné školy?
-        </h4>
+        <form class="quiz" action="">
+          <p class="quiz__question">
+            Na co se buseš ptát svého okolí v souvislosti s hledáním vhodné
+            školy?
+          </p>
+          <div class="quiz__answer">
+            <label for="first">1. Kam bys šel ty?</label>
+            <input type="checkbox" name="first" id="first" />
+          </div>
+          <div class="quiz__answer">
+            <label for="second"
+              >2. Jak moc je pravděpodobné, že zdědím hrozně moc peněz a budu
+              rentiér?</label
+            >
+            <input type="checkbox" name="second" id="second" />
+          </div>
+          <div class="quiz__answer">
+            <label for="third">3. Co na mě obdivuješ?</label>
+            <input type="checkbox" name="third" id="third" />
+          </div>
+          <div class="quiz__btn">
+            <button class="btn" type="submit">Odeslat</button>
+          </div>
+        </form>
         <h2 class="lesson__title lesson__title--underlined">
           Už vím, na co mám talent
         </h2>

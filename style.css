@@ -51,10 +51,15 @@
 
 .worksheet-download__btn {
   padding: 0.3rem;
+  text-decoration: none;
   font-family: 'Montserrat', sans-serif;
   border: 1px solid #232c33;
   color: #ee003c;
   margin-bottom: 1rem;
+}
+.worksheet-download__btn:hover {
+  cursor: pointer;
+  background-color: white;
 }
 
 .video__container {
@@ -70,30 +75,6 @@
   width: 100%;
   height: 100%;
   border: 0;
-}
-
-.download {
-  width: 21rem;
-  display: inline-block;
-  text-decoration: none;
-  background-color: #ee003c;
-  color: white;
-  border: 0.02rem solid #232c33;
-  padding: 1rem;
-  border-radius: 0.5rem;
-  font-size: 1.2rem;
-  text-transform: uppercase;
-  transition: all 0.2s;
-}
-.download:hover {
-  transform: translateY(-0.2rem);
-  box-shadow: 0 10px 20px #232c33;
-  transition: all 0.2s;
-}
-.download:active {
-  transform: translateY(-0.1rem);
-  box-shadow: 0 2px 5px #232c33;
-  transition: all 0.2s;
 }
 
 .lesson__title--underlined::after {
@@ -135,6 +116,13 @@
 .btn {
   padding: 0.5rem;
   font-family: 'Montserrat', sans-serif;
+}
+
+.footer {
+  text-align: center;
+  background-color: #ee003c;
+  color: white;
+  padding: 0.5rem 0px 0.5rem 0px;
 }
 
 @media screen and (min-width: 600px) {

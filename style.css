@@ -77,6 +77,24 @@
   transition: all 0.2s;
 }
 
+.lesson__title--underlined::after {
+  content: '';
+  display: block;
+  background-color: #ee003c;
+  width: 75%;
+  height: 0.3rem;
+  margin: 0.5rem 0;
+}
+
+.lesson__title--underlined-right::after {
+  content: '';
+  display: block;
+  background-color: #ee003c;
+  width: 75%;
+  height: 0.3rem;
+  margin: 0.5rem 25%;
+}
+
 @media screen and (min-width: 600px) {
   .header {
     display: flex;

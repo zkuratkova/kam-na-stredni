@@ -117,7 +117,7 @@
 
 .arrow__link--left:hover,
 .arrow__link--left:active {
-  transform: translateX(-3rem) scale(1.2);
+  transform: translateX(-1.5rem);
 }
 
 .arrow__link--right {
@@ -127,7 +127,7 @@
 
 .arrow__link--right:hover,
 .arrow__link--right:active {
-  transform: translateX(3rem) scale(1.1);
+  transform: translateX(1.5rem);
 }
 
 .quiz {
@@ -160,6 +160,10 @@
   padding: 0.5rem 0px 0.5rem 0px;
 }
 
+.contact__img {
+  width: 100%;
+}
+
 @media screen and (min-width: 600px) {
   .header {
     display: flex;
@@ -183,11 +187,29 @@
   .worksheet-download__text {
     text-align: left;
   }
+
+  .container--contact {
+    display: flex;
+  }
+
+  .column--contact {
+    flex: 0 0 50%;
+  }
 }
 
 @media screen and (min-width: 900px) {
   .classroom {
     width: 900px;
     margin: 0 auto;
+  }
+
+  .arrow__link--left:hover,
+  .arrow__link--left:active {
+    transform: translateX(-3rem) scale(1.2);
+  }
+
+  .arrow__link--right:hover,
+  .arrow__link--right:active {
+    transform: translateX(3rem) scale(1.2);
   }
 }

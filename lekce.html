@@ -138,30 +138,87 @@
           lépe si všímáme ostatních, než sami sebe. S velkou pravděpodobností se
           dozvíš něco opravdu cenného.
         </p>
-        <form class="quiz" action="">
+        <form class="quiz">
           <p class="quiz__question">
             Na co se buseš ptát svého okolí v souvislosti s hledáním vhodné
             školy?
           </p>
           <div class="quiz__answer">
+            <input type="radio" name="quiz" id="first" />
             <label for="first">1. Kam bys šel ty?</label>
-            <input type="checkbox" name="first" id="first" />
           </div>
           <div class="quiz__answer">
+            <input type="radio" name="quiz" id="second" />
             <label for="second"
               >2. Jak moc je pravděpodobné, že zdědím hrozně moc peněz a budu
               rentiér?</label
             >
-            <input type="checkbox" name="second" id="second" />
           </div>
           <div class="quiz__answer">
+            <input type="radio" name="quiz" id="third" />
             <label for="third">3. Co na mě obdivuješ?</label>
-            <input type="checkbox" name="third" id="third" />
           </div>
           <div class="quiz__btn">
             <button class="btn" type="submit">Odeslat</button>
           </div>
         </form>
+
+        <form class="quiz quiz--right">
+          <p class="quiz__question">
+            Na co se buseš ptát svého okolí v souvislosti s hledáním vhodné
+            školy?
+          </p>
+          <div class="quiz__answer">
+            <input type="radio" name="quiz" id="first" />
+            <label for="first">1. Kam bys šel ty?</label>
+          </div>
+          <div class="quiz__answer">
+            <input type="radio" name="quiz" id="second" />
+            <label for="second"
+              >2. Jak moc je pravděpodobné, že zdědím hrozně moc peněz a budu
+              rentiér?</label
+            >
+          </div>
+          <div class="quiz__answer">
+            <input type="radio" name="quiz" id="third" />
+            <label for="third">3. Co na mě obdivuješ?</label>
+          </div>
+          <div class="quiz__btn">
+            <p class="quiz__text quiz__text--right">
+              Super! Máš to správně. Chceš jít dál?
+            </p>
+            <button class="btn">Další lekce</button>
+          </div>
+        </form>
+
+        <form class="quiz quiz--wrong">
+          <p class="quiz__question">
+            Na co se buseš ptát svého okolí v souvislosti s hledáním vhodné
+            školy?
+          </p>
+          <div class="quiz__answer">
+            <input type="radio" name="quiz" id="first" />
+            <label for="first">1. Kam bys šel ty?</label>
+          </div>
+          <div class="quiz__answer">
+            <input type="radio" name="quiz" id="second" />
+            <label for="second"
+              >2. Jak moc je pravděpodobné, že zdědím hrozně moc peněz a budu
+              rentiér?</label
+            >
+          </div>
+          <div class="quiz__answer">
+            <input type="radio" name="quiz" id="third" />
+            <label for="third">3. Co na mě obdivuješ?</label>
+          </div>
+          <div class="quiz__btn">
+            <p class="quiz__text quiz__text--wrong">
+              Ou. Chyba. Zkusíš to znovu?
+            </p>
+            <button class="btn" type="reset">Zkusit znovu</button>
+          </div>
+        </form>
+
         <h2 class="lesson__title lesson__title--underlined">
           Už vím, na co mám talent
         </h2>

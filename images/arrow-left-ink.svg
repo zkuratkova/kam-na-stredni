@@ -8,8 +8,8 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="149.23294mm"
-   height="10.151185mm"
-   viewBox="0 0 149.23294 10.151185"
+   height="15.670118mm"
+   viewBox="0 0 149.23294 15.670118"
    version="1.1"
    id="svg891"
    inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
@@ -24,8 +24,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.63"
-     inkscape:cx="270.14987"
-     inkscape:cy="82.640145"
+     inkscape:cx="219.22962"
+     inkscape:cy="103.49909"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -51,7 +51,7 @@
      inkscape:label="Vrstva 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-45.027967,-143.23666)">
+     transform="translate(-45.027967,-137.71773)">
     <line
        class="cls-1"
        x1="48.74007"
@@ -62,21 +62,21 @@
        style="fill:#000000;fill-opacity:0.985366;stroke:#000000;stroke-width:1.32741;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
     <polygon
        class="cls-2"
-       points="0,15.26 41.94,30.53 43.58,26.02 14.03,15.26 43.58,4.51 41.94,0 "
+       points="43.58,26.02 14.03,15.26 43.58,4.51 41.94,0 0,15.26 41.94,30.53 "
        id="polygon35"
        style="fill:#000000"
        transform="matrix(0.26458333,0,0,0.26458333,45.027967,145.31012)" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.07626px;line-height:1.25;font-family:'MS Reference Sans Serif';-inkscape-font-specification:'MS Reference Sans Serif';stroke:#000000;stroke-width:0.101906;stroke-opacity:1"
-       x="71.053589"
-       y="125.37743"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.23122px;line-height:1.25;font-family:'MS Reference Sans Serif';-inkscape-font-specification:'MS Reference Sans Serif';stroke:#000000;stroke-width:0.180779;stroke-opacity:1"
+       x="84.93528"
+       y="101.73217"
        id="text54"
-       transform="scale(0.84869643,1.1782776)"><tspan
+       transform="scale(0.68968871,1.4499295)"><tspan
          sodipodi:role="line"
          id="tspan52"
-         x="71.053589"
-         y="125.37743"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Segoe UI Symbol';-inkscape-font-specification:'Segoe UI Symbol';stroke:#000000;stroke-width:0.101906;stroke-opacity:1">MINULÁ LEKCE</tspan></text>
+         x="84.93528"
+         y="101.73217"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Segoe UI Symbol';-inkscape-font-specification:'Segoe UI Symbol';stroke:#000000;stroke-width:0.180779;stroke-opacity:1">MINULÁ LEKCE</tspan></text>
   </g>
 </svg>

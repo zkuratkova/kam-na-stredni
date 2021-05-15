@@ -105,10 +105,10 @@
 }
 
 .arrow {
-  margin-top: 1.5rem;
+  margin: 1rem 0;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, 3rem);
+  grid-template-rows: repeat(2, 1.7rem);
 }
 
 .arrow__img {
@@ -132,6 +132,10 @@
 .arrow__link--right:hover,
 .arrow__link--right:active {
   transform: translateX(1.5rem);
+}
+
+.worksheet-download {
+  margin-top: 1rem;
 }
 
 .quiz {
@@ -191,8 +195,17 @@
   padding: 0.5rem 0px 0.5rem 0px;
 }
 
+.contact {
+  margin: 4rem 0;
+}
+
 .contact__img {
   width: 100%;
+}
+
+.contact__mail,
+.contact__phone {
+  font-weight: 600;
 }
 
 @media screen and (min-width: 600px) {
@@ -215,6 +228,9 @@
     padding: 0 2rem;
   }
 
+  .contacts__text,
+  .intro,
+  .informations__text,
   .lesson__text,
   .home__text {
     text-align: left;
@@ -231,6 +247,27 @@
   .column--contact {
     flex: 0 0 50%;
   }
+
+  .contact__text {
+    margin: 0;
+    padding: 0 1.5rem;
+    text-align: left;
+  }
+
+  .contact__mail,
+  .contact__phone {
+    padding: 0 1.5rem;
+    text-align: left;
+  }
+
+  .arrow {
+    grid-template-rows: repeat(2, 3rem);
+    margin-top: 2rem;
+  }
+
+  .worksheet-download {
+    margin-top: 2rem;
+  }
 }
 
 @media screen and (min-width: 900px) {
@@ -241,11 +278,11 @@
 
   .arrow__link--left:hover,
   .arrow__link--left:active {
-    transform: translateX(-3rem) scale(1.2);
+    transform: translateX(-3rem);
   }
 
   .arrow__link--right:hover,
   .arrow__link--right:active {
-    transform: translateX(3rem) scale(1.2);
+    transform: translateX(3rem);
   }
 }

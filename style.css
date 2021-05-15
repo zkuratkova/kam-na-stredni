@@ -53,6 +53,7 @@
   padding: 0 1rem;
 }
 
+.contact-lesson__btn,
 .worksheet-download__btn,
 .link-lesson__btn {
   padding: 0.3rem;
@@ -82,6 +83,8 @@
   border: 0;
 }
 
+.intro__title--underlined::after,
+.contacts__title--underlined::after,
 .lesson__title--underlined::after {
   content: '';
   display: block;
@@ -91,6 +94,7 @@
   margin: 0.5rem 0;
 }
 
+.informations__title--underlined-right::after,
 .lesson__title--underlined-right::after {
   content: '';
   display: block;

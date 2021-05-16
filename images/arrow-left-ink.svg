@@ -8,14 +8,39 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="149.23294mm"
-   height="15.670118mm"
-   viewBox="0 0 149.23294 15.670118"
+   height="14.53896mm"
+   viewBox="0 0 149.23294 14.53896"
    version="1.1"
    id="svg891"
    inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
    sodipodi:docname="arrow-left-ink.svg">
   <defs
-     id="defs885" />
+     id="defs885">
+    <rect
+       x="34.964062"
+       y="131.22488"
+       width="165.24284"
+       height="37.820808"
+       id="rect862" />
+    <rect
+       x="45.190289"
+       y="134.47131"
+       width="97.230316"
+       height="22.88727"
+       id="rect856" />
+    <rect
+       x="30.743713"
+       y="128.46542"
+       width="173.19656"
+       height="43.664368"
+       id="rect850" />
+    <rect
+       x="45.190289"
+       y="128.95239"
+       width="109.56672"
+       height="42.365799"
+       id="rect844" />
+  </defs>
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -24,8 +49,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.63"
-     inkscape:cx="117.38912"
-     inkscape:cy="103.49909"
+     inkscape:cx="282.21154"
+     inkscape:cy="99.223843"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -51,7 +76,7 @@
      inkscape:label="Vrstva 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-45.027967,-137.71773)">
+     transform="translate(-45.027967,-138.84889)">
     <line
        class="cls-1"
        x1="48.74007"
@@ -62,17 +87,17 @@
        style="fill:#000000;fill-opacity:0.985366;stroke:#000000;stroke-width:1.32741;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
     <polygon
        class="cls-2"
-       points="43.58,26.02 14.03,15.26 43.58,4.51 41.94,0 0,15.26 41.94,30.53 "
+       points="43.58,4.51 41.94,0 0,15.26 41.94,30.53 43.58,26.02 14.03,15.26 "
        id="polygon35"
        style="fill:#000000"
        transform="matrix(0.26458333,0,0,0.26458333,45.027967,145.31012)" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.25457px;line-height:1.25;font-family:'MS Reference Sans Serif';-inkscape-font-specification:'MS Reference Sans Serif';stroke:#000000;stroke-width:0.231363;stroke-opacity:1"
-       x="67.548233"
-       y="130.84996"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.71148px;line-height:1.25;font-family:'MS Reference Sans Serif';-inkscape-font-specification:'MS Reference Sans Serif';stroke:#000000;stroke-width:0.217786;stroke-opacity:1"
+       x="63.564743"
+       y="139.0607"
        id="text54"
-       transform="scale(0.88723975,1.1270911)"><tspan
+       transform="scale(0.94273257,1.0607462)"><tspan
          sodipodi:role="line"
          id="tspan52"
          x="67.548233"

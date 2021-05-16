@@ -1,4 +1,4 @@
-.classroom {
+.wrapper {
   font-family: 'Montserrat', sans-serif;
   color: #232c33;
   line-height: 1.6;
@@ -35,6 +35,7 @@
   text-align: center;
 }
 
+.summary__title--main,
 .lesson__title--main,
 .home__title--main {
   color: #ee003c;
@@ -208,6 +209,19 @@
   font-weight: 600;
 }
 
+.summary__lesson {
+  width: 80%;
+  background-color: #ee003b48;
+  color: #ee003c;
+  border: 1px solid #ee003c;
+  padding: 1.5rem;
+}
+
+.container--summery {
+  display: flex;
+  align-content: flex-end;
+}
+
 @media screen and (min-width: 600px) {
   .header {
     display: flex;
@@ -262,7 +276,16 @@
 
   .arrow {
     grid-template-rows: repeat(2, 3rem);
+    grid-template-columns: repeat(5, 1fr);
     margin-top: 2rem;
+  }
+
+  .arrow__link--left {
+    grid-column: 1/4;
+  }
+
+  .arrow__link--right {
+    grid-column: 3/6;
   }
 
   .worksheet-download {
@@ -271,7 +294,7 @@
 }
 
 @media screen and (min-width: 900px) {
-  .classroom {
+  .wrapper {
     width: 900px;
     margin: 0 auto;
   }

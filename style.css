@@ -209,17 +209,21 @@
   font-weight: 600;
 }
 
-.summary__lesson {
-  width: 80%;
+.card {
+  width: 100%;
   background-color: #ee003b48;
   color: #ee003c;
   border: 1px solid #ee003c;
   padding: 1.5rem;
+  margin: 1rem 0;
 }
 
-.container--summery {
-  display: flex;
-  align-content: flex-end;
+.summary__title {
+  text-align: center;
+}
+
+.card__number {
+  font-size: 4rem;
 }
 
 @media screen and (min-width: 600px) {
@@ -238,7 +242,8 @@
   }
 
   .lesson,
-  .home {
+  .home,
+  .summary {
     padding: 0 2rem;
   }
 

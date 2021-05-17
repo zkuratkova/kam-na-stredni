@@ -210,8 +210,7 @@
 }
 
 .card {
-  width: 100%;
-  background-color: #ee003b48;
+  background-color: #ffdc5e;
   color: #ee003c;
   border: 1px solid #ee003c;
   padding: 1.5rem;
@@ -224,6 +223,12 @@
 
 .card__number {
   font-size: 4rem;
+  color: #175676;
+}
+
+.container--card {
+  display: flex;
+  justify-content: space-between;
 }
 
 @media screen and (min-width: 600px) {
@@ -296,6 +301,16 @@
   .worksheet-download {
     margin-top: 2rem;
   }
+
+  .card {
+    margin: 0;
+  }
+
+  .container--summary {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
 }
 
 @media screen and (min-width: 900px) {
@@ -312,5 +327,9 @@
   .arrow__link--right:hover,
   .arrow__link--right:active {
     transform: translateX(3rem);
+  }
+
+  .container--summary {
+    grid-template-columns: repeat(3, 1fr);
   }
 }

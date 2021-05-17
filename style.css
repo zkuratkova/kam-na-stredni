@@ -7,6 +7,7 @@
 .container {
   display: flex;
   align-items: center;
+  font-weight: 800;
 }
 
 .nav__list {
@@ -17,6 +18,7 @@
 
 .nav__link {
   text-decoration: none;
+  font-weight: 800;
   width: 100%;
   color: #000000;
   display: inline-block;
@@ -26,7 +28,6 @@
 
 .nav__link:hover,
 .nav__link:focus {
-  background-color: #d5dfe5;
   color: #ee003c;
 }
 
@@ -40,33 +41,17 @@
 .home__title--main {
   color: #ee003c;
 }
+
 .worksheet-download,
 .link-lesson {
   background-color: #d5dfe5;
   margin: 2.5rem 0;
-  border-top: 1px solid #232c33;
-  border-bottom: 1px solid #232c33;
   padding: 0.5rem;
 }
 
 .worksheet-download__text,
 .link-lesson__text {
   padding: 0 1rem;
-}
-
-.contact-lesson__btn,
-.worksheet-download__btn,
-.link-lesson__btn {
-  padding: 0.3rem;
-  text-decoration: none;
-  font-family: 'Montserrat', sans-serif;
-  border: 1px solid #232c33;
-  color: #ee003c;
-  margin-bottom: 1rem;
-}
-.worksheet-download__btn:hover {
-  cursor: pointer;
-  background-color: white;
 }
 
 .video__container {
@@ -107,27 +92,28 @@
 
 .arrow {
   margin: 1rem 0;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, 1.7rem);
+  display: flex;
+}
+
+.arrow__link {
+  text-decoration: none;
+}
+
+.arrow__link--left {
+  color: #000000;
+}
+
+.arrow__link--right {
+  color: #ee003c;
 }
 
 .arrow__img {
   width: 100%;
 }
 
-.arrow__link--left {
-  grid-column: 1/3;
-}
-
 .arrow__link--left:hover,
 .arrow__link--left:active {
   transform: translateX(-1.5rem);
-}
-
-.arrow__link--right {
-  grid-column: 2/4;
-  grid-row: 2;
 }
 
 .arrow__link--right:hover,
@@ -137,13 +123,12 @@
 
 .worksheet-download {
   margin-top: 1rem;
+  padding: 1rem;
 }
 
 .quiz {
   background-color: #d5dfe5;
   padding: 0.5rem;
-  border-top: 1px solid #232c33;
-  border-bottom: 1px solid #232c33;
   margin: 4rem 0;
 }
 
@@ -185,8 +170,20 @@
 }
 
 .btn {
-  padding: 0.5rem;
+  padding: 0.7rem;
+  font-size: 1rem;
   font-family: 'Montserrat', sans-serif;
+  border: none;
+  color: #ffffff;
+  border-radius: 5px;
+  font-weight: 500;
+  background-color: #ee003c;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #ffffff;
+  color: #ee003c;
 }
 
 .footer {
@@ -210,9 +207,8 @@
 }
 
 .card {
-  background-color: #ffdc5e;
-  color: #ee003c;
-  border: 1px solid #ee003c;
+  background-color: #d5dfe5;
+  color: #000000;
   padding: 1.5rem;
   margin: 1rem 0;
 }
@@ -229,6 +225,10 @@
 .container--card {
   display: flex;
   justify-content: space-between;
+}
+
+.container--summary {
+  margin-bottom: 14rem;
 }
 
 @media screen and (min-width: 600px) {

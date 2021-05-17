@@ -8,12 +8,12 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="149.23296mm"
-   height="15.190291mm"
-   viewBox="0 0 149.23295 15.190291"
+   height="8.0777292mm"
+   viewBox="0 0 149.23295 8.077729"
    version="1.1"
    id="svg1484"
    inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
-   sodipodi:docname="arrow-right-ink.svg">
+   sodipodi:docname="arrow-right-notext.svg">
   <defs
      id="defs1478">
     <rect
@@ -31,7 +31,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.6290957"
-     inkscape:cx="490.19632"
+     inkscape:cx="439.24781"
      inkscape:cy="37.227851"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
@@ -69,22 +69,10 @@
        style="fill:#ee003c;fill-opacity:1;stroke:#ee003c;stroke-width:1.32741;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
     <polygon
        class="cls-2"
-       points="41.94,30.53 43.58,26.02 14.03,15.26 43.58,4.51 41.94,0 0,15.26 "
+       points="14.03,15.26 43.58,4.51 41.94,0 0,15.26 41.94,30.53 43.58,26.02 "
        id="polygon35"
        style="fill:#ee003c;fill-opacity:1"
        transform="matrix(-0.26458333,0,0,0.26458333,169.86648,144.65083)" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.92841px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#ee003c;fill-opacity:1;stroke:none;stroke-width:0.223211;stroke-opacity:1"
-       x="107.13451"
-       y="148.65611"
-       id="text54"
-       transform="scale(0.93056791,1.0746126)"><tspan
-         sodipodi:role="line"
-         id="tspan52"
-         x="107.13451"
-         y="148.65611"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#ee003c;fill-opacity:1;stroke:none;stroke-width:0.223211;stroke-opacity:1">DALŠÍ LEKCE</tspan></text>
     <text
        xml:space="preserve"
        id="text2071"

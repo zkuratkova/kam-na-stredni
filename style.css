@@ -169,6 +169,7 @@
   padding: 0.7rem 1rem;
 }
 
+.el_btn,
 .btn {
   padding: 0.7rem;
   font-size: 1rem;
@@ -181,9 +182,11 @@
   text-decoration: none;
 }
 
+.el_btn:hover,
 .btn:hover {
-  background-color: #c2375a;
-  color: #ffffff;
+  background-color: #ee003b59;
+  color: #ee003c;
+  border: 1px solid #ee003c;
 }
 
 .footer {

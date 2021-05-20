@@ -81,6 +81,7 @@
   color: #ee003c;
 }
 
+.contact-main,
 .worksheet-download,
 .link-lesson {
   background-color: #d5dfe5;
@@ -97,6 +98,7 @@
   position: relative;
   overflow: hidden;
   padding-top: 56.25%;
+  margin-bottom: 1rem;
 }
 
 .video__video {

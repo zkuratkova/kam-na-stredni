@@ -2,16 +2,6 @@ import React from 'react';
 import { render } from 'react-dom';
 import './index.html';
 import './style.css';
+import Header from './components/Header';
 
-render(
-  <>
-    <header>
-      <h1>React Starter</h1>
-    </header>
-    <main>
-      <p>Moje první React stránka</p>
-    </main>
-    <footer>Martin Podloucký</footer>
-  </>,
-  document.querySelector('#app'),
-);
+render(<Header />, document.querySelector('#app'));

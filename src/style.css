@@ -126,7 +126,7 @@
 }
 
 .btn--secondary {
-  background-color: #d5dfe5;
+  background-color: #ffffff;
   color: #ee003c;
 }
 
@@ -140,7 +140,7 @@
 }
 
 .btn--secondary:hover {
-  background-color: #bbc7ce;
+  background-color: #d5dfe5;
 }
 
 .btn--right:hover {

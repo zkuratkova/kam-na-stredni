@@ -82,20 +82,16 @@
 
 .quiz--right {
   background-color: #0c7c5865;
-  background-position: right;
-  background-size: contain;
 }
 
 .quiz--wrong {
   background-color: #ee003b59;
-  background-position: right;
-  background-size: contain;
 }
 
 .quiz__text {
   padding: 0.4rem;
-  border-radius: 3px;
   margin: 0 0 1rem 0;
+  border-radius: 5px;
 }
 
 .quiz__text--right {
@@ -103,8 +99,7 @@
 }
 
 .quiz__text--wrong {
-  background-color: #ee003c;
-  color: #ffffff;
+  background-color: #ee003ba1;
 }
 
 .quiz__question {
@@ -130,11 +125,26 @@
   text-decoration: none;
 }
 
+.btn--secondary {
+  background-color: #d5dfe5;
+  color: #ee003c;
+}
+
+.btn--right {
+  background-color: #0c7c58;
+}
+
 .el_btn:hover,
 .btn:hover {
-  background-color: #ee003b59;
-  color: #ee003c;
-  border: 1px solid #ee003c;
+  background-color: #c40131;
+}
+
+.btn--secondary:hover {
+  background-color: #bbc7ce;
+}
+
+.btn--right:hover {
+  background-color: #0b6448;
 }
 
 .footer {

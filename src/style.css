@@ -123,6 +123,7 @@
   font-weight: 500;
   background-color: #ee003c;
   text-decoration: none;
+  cursor: pointer;
 }
 
 .btn--secondary {
